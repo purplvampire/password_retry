@@ -1,7 +1,8 @@
 x = 0
+password = 'a123456'
 while x < 3:
     pwd = input('請輸入密碼: ')
-    if pwd == 'a123456':
+    if pwd == password:
         print('登入成功!')
         break
     else:
